@@ -1,10 +1,10 @@
 {
     "name": "anydoorwp",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "description": "",
     "main": "src/app.js",
     "bin": {
-        "anydoor": "bin/anydoor"
+        "anydoorwp": "bin/anydoorwp"
     },
     "scripts": {
         "lint": "eslint .",
