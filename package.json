@@ -1,0 +1,21 @@
+{
+    "name": "anydoorwp",
+    "version": "0.1.1",
+    "description": "",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "author": "lengband",
+    "license": "ISC",
+    "dependencies": {
+        "babel-eslint": "^8.0.3",
+        "chalk": "^2.3.0",
+        "eslint": "^4.13.1",
+        "handlebars": "^4.0.11"
+    }
+}
