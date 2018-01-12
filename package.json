@@ -1,7 +1,7 @@
 {
     "name": "anydoorwp",
-    "version": "0.1.4",
-    "description": "",
+    "version": "0.1.6",
+    "description": "tiny nodejs web server",
     "main": "src/app.js",
     "bin": {
         "anydoorwp": "bin/anydoorwp"
@@ -12,10 +12,14 @@
     },
     "author": "lengband",
     "license": "ISC",
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "eslint": "^4.5.0",
+        "pre-commit": "^1.2.2"
+    },
     "dependencies": {
-        "babel-eslint": "^8.0.3",
-        "chalk": "^2.3.0",
-        "eslint": "^4.13.1",
-        "handlebars": "^4.0.11"
+        "chalk": "^2.1.0",
+        "handlebars": "^4.0.10",
+        "yargs": "^8.0.2"
     }
 }
