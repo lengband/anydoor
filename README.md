@@ -1,6 +1,12 @@
 # anydoorwp
 The nodeJS static resources server of web
 
+## 安装
+
+```
+npm i -g anydoorwp
+```
+
 
 ## 使用方法
 
